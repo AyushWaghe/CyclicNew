@@ -4,6 +4,7 @@ const fetchTransactionsRoute = require('./src/routes/fetchTransactionRoute.js');
 const deleteTransactionRoute = require('./src/routes/deleteTransactionRoute.js');
 const billReminderRoute = require('./src/routes/billReminderRoute.js');
 const {connectDB}=require('./dbConfig/db.js');
+const path = require('path');
 
 const cors = require('cors');
 const bodyParser = require('body-parser');
