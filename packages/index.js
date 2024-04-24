@@ -27,7 +27,7 @@ app.use('/deleteTransaction',deleteTransactionRoute);
 //Bill rountes 
 app.use('/BillReminders',billReminderRoute);
 
-app.use(express.static(path.join(__dirname,"../client/build")));
+app.use(express.static(path.join(__dirname,"./client/build")));
 
 
 
